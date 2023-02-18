@@ -1,2 +1,309 @@
-<h1>Mi Portfolio</h1>
-<p> modificacion en el repositorio remoto</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio Natalia Torres</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+       
+</head>
+
+<body>
+    <header>
+        <div class="top">
+            <span>
+                <img src="images/logoargprog.png" alt="logo Argentina Programa" height="60">
+            </span>
+            
+            <span class="programa">
+                #YoProgramo
+            </span>
+        
+            <span class="instagram">
+              <a href="https://www.instagram.com/ntorres_m/" target="_blank">
+                <img src="images/logoig.png" alt="Instagram logo" height="40" width="40">
+              </a>   
+            </span>
+    
+            <span class="login">
+                Login
+            </span>
+        </div>
+               
+        <div class="banner">
+            <img src="images/banner1.png">
+
+            <div class="fotodeperfil">
+                <img src="images/fotodeperfil.png"
+                alt="foto de perfil"
+                width="300"
+                height="300">
+            </div>
+
+            <span class="presentacion">
+                <h1>Natalia Torres</h1>
+                <h2>Full Stack Developer Jr.</h2>
+                <h4>Córdoba, Argentina.</h4>
+                <h5>nataliatorresmar28@gmail.com</h5>
+            </span>
+            
+        </div>
+
+    </header>
+
+    <section class="personal"> 
+             
+        <div class="acerca">
+            <span>ACERCA DE MI...</span>
+            
+            <p id="acercade">Hola! Bienvenid@ a mi Portfolio. Encontrarás un resumen de mis intereses y conocimientos. Graduada como Diseñadora Industrial, aprendí a desarrollar productos funcionales, de interfase intuitiva - fáciles de usar -, y visualmente atractivos. Son estos valores los que te propongo aplicar en tu página web, para potenciar tu negocio. </p>
+            <span class="btn-edit" onclick="cambiar_parrafo()">
+                <a href="#" class="btn-right">
+                    <i class="fa fa-pen">
+                        <img src="images/iconoeditar.png" height="20">
+                    </i>
+                </a> 
+            </span>
+            <p>
+                <input id="edit-acercade" type="text" oninput="myFunction2(this.value)" style="display:none;">
+            </p>
+        </div>
+    </section>
+
+    <hr size="1px" color="grey">
+
+    <section class="experiencia"> 
+               
+        <div class="listaexperiencia">
+            
+           <div>
+             <span>EXPERIENCIA</span>
+             <span> <img src="images/iconoeditar.png" alt="iconoeditar" height="20"></span>
+           </div>   
+                  
+        
+            <ul style="margin-left: 50px;">
+                <li>Asesoramiento y acompañamiento del cliente, para transformar sus necesidades en requerimientos proyectuales, y estos en una propuesta de producto.</li>
+                <li>Supervisora de procesos de producción, de control de calidad y logisticos.</li>
+                
+            </ul>
+        </div>
+        
+    </section>
+
+    <hr size="1px" color="grey">
+
+    <section class="educacion">      
+                    
+
+        <div class="listaeducacion">
+
+            <div>
+                <span>EDUCACION</span>
+                <span> <img src="images/iconoeditar.png" alt="iconoeditar" height="20"></span>
+            </div>
+
+           
+            <h4>Formación Académica</h4>
+
+            <ul>
+                <p>Universitario finalizado</p>
+                <li>Título: Diseñadora Industrial. Trabajo Final Nota:10. Facultad de Arquitectura, Urbanismo y Diseño, Universidad Nacional de Córdoba. Año: 2019.</li>
+            </ul>
+                
+            <span class="faud">
+                <a href="https://faud.unc.edu.ar/ target="_blank">
+                        <img src="images/logofaud.png" height="90"
+                             alt="Faud logo"/>
+                </a>
+            </span>
+               
+            <span class="unc">
+                    <img src="images/logounc.png" height="60" alt="UNC logo">
+            </span>
+                
+                
+                
+            <ul>
+                <h5>Universitario en curso (Nivel IV)</h5>
+                <li>Carrera de Licenciatura en Artes Visuales. Facultad de Artes. Universidad Nacional de Córdoba.</li>
+            </ul>
+            <a href=https://artes.unc.edu.ar/ " target="_blank">
+                <img src="images/logoartes.png" height="60"                         alt="Artes logo" />
+            </a>
+                
+            <img src="images/logounc.png" height="60" alt="UNC logo">
+        
+    <hr size="0px" color="lavender">                
+                      
+               
+                <h4>Cursos</h4>
+                   
+                    
+                <ul>
+                    <h5>Argentina Programa: #SéProgramar</h5>
+                    <li>Institución: Instituto Nacional de Tecnología Industrial (INTI). Año 2022.</li>                
+                </ul>
+        
+                <ul>
+                    <h5>Argentina Programa: #YoProgramo</h5>
+                    <li>Institución: Instituto Nacional de Tecnología Industrial (INTI). Años 2022-2023.</li>                
+                </ul>
+                  
+                <ul>
+                    <h5>Dirección de Arte</h5>
+                    <li>Institución: La Lumère, Escuela de Cine y Fotografía. Año 2015.</li>             
+                </ul>
+                <a href=" https://www.escuelalalumiere.com.ar/" target="_blank">
+                    <img src="images/logolalumiere.png" height="60"
+                         alt="La Lumiere logo" />
+                  </a>
+                       
+                  
+                <ul>
+                    <h5>Curso de Dominio y Uso de la Lengua Inglesa</h5>
+                    <li>Cursando Nivel 4, Facultad de Lenguas, Universidad Nacional de Córdoba. Año 2015.</li>                
+                </ul>
+                <a href="https://www.lenguas.unc.edu.ar/" target="_blank">
+                    <img src="images/logolenguas.png" height="60"                    alt="Lenguas logo" />
+                </a>
+                <span class="unc">
+                    <img src="images/logounc.png" height="60" alt="UNC logo">
+                </span>
+            </div>                   
+                
+                                                   
+    </section>
+
+    <hr size="1px" color="grey">
+
+    <section class="formación docente">        
+            
+        <div class="ayudantia">
+
+                <div>
+                    <span>AYUDANTÍA DOCENTE</span>
+                    <span> <img src="images/iconoeditar.png" alt="iconoeditar" height="20"></span>
+                </div>
+                    
+                <ul>
+                    <li>Cátedra de Dibujo I, Nivel II, Carrera de Licenciatura en Artes Visuales. Años 2013 y 2014</li>
+                    
+                </ul>
+        </div>      
+            
+
+    </section>
+
+    <hr size="1px" color="grey">
+    
+    <section class="skills">
+        
+        <div class="listaskills">
+
+            <div>
+                <span>HARD SKILLS</span>
+                <span> <img src="images/iconoeditar.png" alt="iconoeditar" height="20"></span>
+            </div>
+            
+            <span>
+                <ul>Para Front End: 
+                    <li>Estructura y estilos: HTML, CSS y framework como Bootstrap</li>  
+                    <li>Lenguaje de programación: TypeScrypt y el framework Angular ambos basados en Javascript</li> 
+            </ul>
+            
+    
+            </span>
+            
+                       
+            <ul>Para Back End: 
+                    <li>Base de datos: MySQL</li>  
+                    <li>Lenguaje: Java con Framework Spring Boot </li>
+                    <li>Web server: Apache Tomcat</li>                   
+            </ul>
+                   
+            <hr size="0px" color="lavender">         
+            
+            <div>
+                <span>SOFT SKILLS</span>
+                <span> <img src="images/iconoeditar.png" alt="iconoeditar" height="20"></span>
+            </div>
+            
+            <ul>
+                    <li>Soy flexible y paciente ante situaciones adversas.</li> 
+                    <li>Poseo capacidad analítica para tomar decisiones.</li>
+                    <li>Muestro gran compromiso y tomo responsabilidad frente al objetivo.</li>
+                    <li>Tengo experiencia de trabajo en equipo, tanto colaborando con compañeros como manejando grupos de trabajo.</li>
+                    <li>Predispuesta el aprendizaje constante.</li>
+            </ul>   
+            
+ <hr size="0px" color="lavender"> 
+
+            <h3>Idiomas</h3>
+                
+            <ul>
+                <li>Español: nativo</li>
+                <li>Inglés: medio</li>
+            </ul>
+                
+            
+        </div>
+        
+                       
+    </section>
+       
+    
+    <script>
+
+//funcion que
+//cambia el estilo del input a visible
+//toma el valor del texto del parrafo con id "acercade"
+//lo muestra en consola
+function cambiar_parrafo(){
+    document.getElementById("edit-acercade").style.display= "block";
+    let texto = document.getElementById("acercade").innerText;
+    console.log(texto);
+}
+
+function myFunction2(valor){
+    document.getElementById("acercade").innerText=valor;
+    
+}
+
+        
+//controla si se presiono un enter
+function logMessage(message) {
+    console.log(message + "<br>");
+}    
+    let textarea = document.getElementById("edit-acercade")
+    textarea.addEventListener(`keyup`, (e) => {
+        logMessage(`Key "${e.key}" released [event: key]`);
+        if (e.key=="Enter"){
+            document.getElementById("edit-acercade").style.display="none"
+        }
+    });
+
+//carga el contenido de un archivo de texto
+//y lo muestra en el parrafo
+function showfile(input){
+    let file = input.files[0];
+    alert(`File name: ${file.name}`);
+    alert(`Last modified; ${file.lastModified}`);
+
+    let reader = new FileReader();
+    reader.readAsText(file);
+    reader.onload = function(){
+        console.log(reader.result);
+        document.getElementById("edit-acercade").innerText=reader.result;
+    };
+    reader.onerror=function(){
+        console.log(reader.error);
+    };
+}
+
+    </script>
+
+</body>
+
+</html>
