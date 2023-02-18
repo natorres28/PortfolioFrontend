@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+body {
+    background-color:lavender;
+    }
+ 
+.top {
+    background-color: darkslateblue; 
+    display: flex;
+    align-items: center;
+    font-family: Calibri; 
+    font-size: 20px; 
+    color: white;
+    padding: auto;
+    }
+
+.top > span.programa {
+    padding-inline: 10px;
+    ;
+}
+
+.top > span.instagram {
+    padding-left: 1000px;
+    padding-right: 30px;
+    ;
+}
+
+.banner {
+    max-height:100%;
+    height: auto;
+    position: relative;
+}
+
+.banner > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.fotodeperfil {
+    position: absolute;
+    left: 40px;
+    top: 100px;
+}
+
+.presentacion {
+    font-family: Calibri; 
+    font-size: 16px; 
+    color:darkslateblue;
+    padding-inline: 30px;
+    position: absolute;
+    left: 330px;
+    top: 180px;
+
+}
+
+.acerca {
+    display: flex;
+    align-items: center;
+    font-family:  Calibri; 
+    font-size: 20px; 
+    color:darkslateblue;
+    padding: 30px 30px;
+    position:relative;
+    margin: 100px 50px 20px ;
+    background-color:ghostwhite;
+    border-radius: 10px;
+     
+}
+
+.acerca > span {
+    font-size: 30px;
+    padding: 30px;
+}
+
+.acerca > p {
+    display: flex;
+    align-items: center;
+}
+
+hr {
+    margin: 30px 100px;
+}
+
+.experiencia {
+    align-items: center;
+    margin: 0px 10%;
+}
+
+.listaexperiencia {
+    font-family: Calibri; 
+    font-size: 18px; 
+    color:darkslateblue;
+    padding: 0px 30px;
+    position:relative;  
+    
+}
+
+.listaexperiencia > div {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+.educacion {
+    align-items: center;
+    margin: 0px 10%;
+}
+
+.listaeducacion {
+    font-family: Calibri; 
+    font-size: 18px; 
+    color:darkslateblue;
+    padding: 0px 30px;
+    position:relative;
+}
+
+.listaeducacion > div {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+.listaeducacion > h4 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+
+.cursos {
+    align-items: center;
+    font-family: Calibri; 
+    font-size: 18px; 
+    color:darkslateblue;
+    padding: 30px 0px 30px;
+    position:relative;
+   
+}
+
+.cursos > h4 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+
+.ayudantia {
+    align-items: center;
+    margin: 0px 10%;
+    font-family: Calibri; 
+    font-size: 18px; 
+    color:darkslateblue;
+    padding: 0px 30px;
+    position:relative;
+}
+
+.ayudantia > div {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+
+.skills {
+    align-items: center;
+    margin: 0px 10%;
+   
+}
+
+.listaskills > div {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+.listaskills {
+    font-family: Calibri; 
+    font-size: 18px; 
+    color:darkslateblue;
+    padding: 0px 30px;
+    position:relative; 
+   
+}
+
+.listaskills > h3 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
